@@ -1,0 +1,26 @@
+{
+  "_comment": "Copy to config.json and fill in. config.json is gitignored — bank details must never enter source control.",
+  "payee": {
+    "name": "Your Name",
+    "bank": "Your Bank",
+    "ifsc": "BANK0000000",
+    "account_number": "000000000000",
+    "account_name": "Your Name",
+    "address_line_1": "Street",
+    "address_line_2": "Area",
+    "address_line_3": "City - PIN",
+    "phone": "+00 00000 00000",
+    "email": "you@example.com"
+  },
+  "client": {
+    "legal_name": "Client Legal Name Pvt Ltd",
+    "address_line_1": "Street, Area",
+    "address_line_2": "City, Country - PIN",
+    "gstin": "00AAAAA0000A0Z0",
+    "email": "accounts@example.com"
+  },
+  "figma": {
+    "file_key": "your-figma-file-key",
+    "reference_file_key": "optional-reference-file-key"
+  }
+}
